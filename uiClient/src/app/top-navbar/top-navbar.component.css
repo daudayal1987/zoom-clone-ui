@@ -1,0 +1,56 @@
+.navbar .photo {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.navbar .photo img {
+    width: 100%;
+}
+
+.caret {
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-top: 4px dashed;
+    border-right: 4px solid transparent;
+    border-left: 4px solid transparent;
+    margin-top: -5px;
+    position: absolute;
+    top: 30px;
+    margin-left: 5px;
+}
+
+.dropdown-menu.dropdown-navbar:after, 
+.dropdown-menu.dropdown-navbar:before {
+    left: auto;
+    right: 17px;
+}
+
+.dropdown-menu:before {
+    display: inline-block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: "";
+    top: -5px;
+    left: 10px;
+    right: auto;
+    color: #000;
+    border-bottom: .4em solid;
+    border-right: .4em solid transparent;
+    border-left: .4em solid transparent;
+}
+
+@media (min-width: 992px){
+    .navbar .caret {
+        position: absolute;
+        left: 80%;
+        top: 55%;
+        margin-left: 0;
+    }
+}

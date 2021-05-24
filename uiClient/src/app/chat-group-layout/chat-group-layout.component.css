@@ -1,0 +1,49 @@
+.chat-group-layout{
+    height: 100%;
+}
+
+.main-area{
+    background-color: gray;
+}
+ 
+.group-header{
+    background-color: burlywood;
+}
+
+.group-content{
+    background-color: cadetblue;
+}
+
+.group-footer{
+    background-color: chartreuse;
+}
+
+.chat-side-panel{
+    background-color: rgb(41, 39, 39);
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+}
+
+.header, .content, .footer {
+    display: table-row;
+}
+
+.inner {
+    display: table-cell;
+}
+
+.content .inner {
+    height: 100%;
+    position: relative;
+}
+
+.scrollable {
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    overflow: hidden;
+}
